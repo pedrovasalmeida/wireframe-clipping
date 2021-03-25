@@ -401,7 +401,7 @@ span.action-selected {
 
 .user-buttons .fa-chevron-up {
   background: var(--white);
-  padding: 0.8rem;
+  padding: 0.78rem;
   color: var(--darker-gray);
   border: 1px solid var(--dark-gray);
   border-radius: 0.25rem;
@@ -419,7 +419,7 @@ span.action-selected {
   background: var(--blue);
   border: 0;
   border-radius: 0.25rem;
-  padding: 0.7rem;
+  padding: 0.7rem 1rem;
   color: var(--white);
 
   font-size: 0.9rem;
@@ -446,17 +446,25 @@ span.action-selected {
   font-weight: bold;
   font-size: 1.4rem;
 
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .sumary-data ol {
   list-style: none;
   counter-reset: item;
 
-  margin: 2rem 0;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .sumary-data ol li {
+  white-space: nowrap;
+
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+
+.sumary-data ol.ol-styled li {
   white-space: nowrap;
 
   color: var(--blue);
