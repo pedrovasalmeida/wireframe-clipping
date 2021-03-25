@@ -62,11 +62,11 @@ header {
 
   background: var(--gray);
 
-  transition: background 300ms ease;
+  transition: filter 300ms ease;
 }
 
 .search-input:hover {
-  background: var(--dark-gray);
+  filter: brightness(0.9);
 }
 
 .search-input::placeholder {
