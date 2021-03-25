@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --black: #121214;
+  --light-gray: #f0f0f0;
+  --gray: #dcddde;
+  --dark-gray: #bdbdbd;
+  --darker-gray: #7c7c7c;
+  --cyan: #00c6d9;
+  --blue: #0099ff;
+}
+
+body {
+  background: var(--white);
+  color: var(--black);
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font: 400 1rem 'Roboto', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
